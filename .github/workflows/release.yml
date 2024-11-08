@@ -17,7 +17,7 @@ jobs:
           version: v3.3.4
 
       - name: Package Helm chart
-        run: helm package ./charts/loacl-path-provisioner
+        run: helm package ./charts/local-path-provisioner
 
       - name: Publish Helm chart
         uses: stefanprodan/helm-gh-pages@master
